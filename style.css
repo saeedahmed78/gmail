@@ -1,0 +1,247 @@
+body,html{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.header{
+    height: 70px;
+    width: 100%;
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+
+}
+.content{
+    display: flex;
+
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 89vh;
+    width: 260px;
+    border: 1px solid black;
+    position: absolute;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    position: relative;
+    left: 261px;
+    height: 89vh;
+    width: 70%;
+    overflow-y: scroll;
+
+}
+.rightSideBar{
+    width: 30px;
+    height: 89vh;
+        position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border: 1px solid  black;
+
+}
+.humburger{
+    height: 50px; 
+    width: 50px;
+    margin-left: 10px;
+    border: none;
+    margin-right: 10px;
+    background-color: white;
+}
+.humburger:hover{
+    border-radius: 30px;
+    background-color: #ededed;
+}
+.fa-bars{
+    font-size: 1.5em;
+    
+}
+.gmail-icon{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    color: #808487;
+}
+.gmail{
+    font-size: 1.8em;
+    color: #6b6f73;
+}
+.search-button{
+    margin: 0px;
+    padding: 15px;
+    border: none;
+    background-color: #f5f5f5;   
+}
+.button-group{
+    display: flex;
+    text-align: center;
+    width: 50%;
+    margin-left: 5%;
+}
+.button-group:active{
+
+    display: flex;
+    text-align: center;
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
+}
+.search{
+    display: flex;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    border: none;
+    background-color: #f5f5f5;
+}
+/* .search:hover{
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
+    background-color: white;
+    border: 2px solid #f5f5f5;
+} */
+.googleapp-img{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border: none;
+    margin-left: auto;
+    margin-right: 20px;
+    
+}
+.nooti-icon{
+    color: white;
+    background-color: #757575;    
+    font-size: 0.8em;
+    padding: 6px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 20px;
+
+
+}
+.pro-img{
+    height: 35px;
+    width: 35px;
+    border: none;
+    background-image: url("images/saeed.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    margin-right: 10px;
+
+}
+.right-side-img{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30%;
+}
+.plus-icon{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.compose-btn{
+    color: #9fa1a2;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    border-radius: 50px;
+    border: none;
+    width: 150px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: white;
+    -webkit-box-shadow: 0px 1px 4px 0.2px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 1px 4px 0.2px rgba(0,0,0,0.5);
+box-shadow: 0px 1px 4px 0.2px rgba(0,0,0,0.5);
+    color: #6b6f73;
+    font-size: 0.95em;
+    font-weight:bolder;
+}
+.compose-btn:hover{
+    background-color: #fafafb;
+    -webkit-box-shadow: 0px 5px 10px 0.5px rgba(107,104,107,1);
+-moz-box-shadow: 0px 5px 10px 0.5px rgba(107,104,107,1);
+box-shadow: 0px 5px 10px 0.5px rgba(107,104,107,1);
+}
+.inbox-buttons{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 12px;
+    position: relative;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: none;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 20px;
+    background-color: white;
+}
+
+.inbox-buttons:hover{
+    background-color: #e8eaed;
+}
+.inbox-icon{
+    margin-right: 25px;
+    color: #757575;
+    width: 20px;
+}
+.inb0x-text{
+    position: absolute;
+    right: 20px;
+}
+.inbox-buttons:nth-child(2){
+    font-weight: bold;
+    background-color: #fce8e6;
+    color: red;
+
+}
+.button-text{
+    margin-left: 0px;
+}
+.sidebar-bottom{
+    
+   color: #878787;
+   position: absolute;
+   bottom: 10px;
+   display: flex;
+   justify-content: center;
+   border-top: 1px solid black;
+   width: 100%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.sidebar-bottom>i{
+    margin-right: 15px;
+
+}
+.center-header{
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    width: 70%;
+}
